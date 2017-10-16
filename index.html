@@ -1,0 +1,94 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>ECSI Dashboard</title>
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    
+    <script type="text/javascript" src="js/dx.viz-web.js"></script>
+     <!--$("#currentDate").text((Globalize.formatDate(Dashboard.getDate(), { date: "medium" })).toUpperCase());-->
+
+
+    <!--
+    <script type="text/javascript" src="js/vectormap-data/world.js"></script>
+    <script type="text/javascript" src="js/vectormap-data/africa.js"></script>
+    <script type="text/javascript" src="js/vectormap-data/canada.js"></script>
+    <script type="text/javascript" src="js/vectormap-data/eurasia.js"></script>
+    <script type="text/javascript" src="js/vectormap-data/europe.js"></script>
+    <script type="text/javascript" src="js/vectormap-data/usa.js"></script>
+-->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" href="css/dx.common.css" />
+    <link rel="stylesheet" href="css/dx.light.css" />
+    <link rel="stylesheet" type="text/css" href="css/site.css" media="screen and (min-width: 740px)" />
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" media="all" href="css/site.css"/>
+    <script type="text/javascript" src="scripts/ie8html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="css/phone.css" media="screen and (max-width: 739px)"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/landingPage.css" />
+
+<script type="text/javascript" src="scripts/tools.js"></script>    
+    <script type="text/javascript" src="scripts/themes.js"></script>
+</head>
+<body id="Dashboard">    
+    <header class="dashboard-header">
+            <div class="date" id="currentDate"></div>        
+        <div class="user-info">
+            <div class="avatar">
+            	<div class="initials">J</div>
+            </div>
+            <div class="name">John Smith</div>
+        </div>
+        <div class="dashboard-title">
+            <h1>Welcome to Your Dashboard</h1>
+		</div>
+
+    </header>
+    <div class="dashboard-navigation">
+     	<div class="dashboard-navigation overlay">
+	
+<div class="logo-image" ><img src="Images/CCAC_logo.png"></div>
+        <div class="logo-text"> Community College of Allegheny County </div>
+
+        <ul>
+            <li>
+                <a href="#RecoverySelect">
+                    <div id="recovery" class="navigation-item clear-fix">
+                        <div class="icon recovery">
+							<h2><span class="bold">Recovery</span>Select</h2>
+                        </div>
+					</div>
+                </a>
+            </li>
+            <li>
+                <a href="#RefundSelect">
+                    <div id="refund" class="navigation-item clear-fix">
+                        <div class="icon refund">
+                            <h2><span class="bold">Refund</span>Select</h2>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-logo"></div>
+</div>
+	</div>
+
+    <header class="dashboard-mobile-header tablet-hide">
+        <h1>Sales Dashboard</h1>
+    </header>
+    <section class="main-content">
+        <div id="dashboard-content" class="dashboard-content clear-fix">
+
+        </div>
+    </section>
+    <div class="screen-size"></div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+.layout-box {
+    width: 100%;
+    float: left;
+    margin: 5px;
+	height: calc(90vh/4);
+	background-color: #F1F3F5;
+	overflow: hidden;
+	clear:right;
+}
+.grid-1 {
+	width: 19%;
+
+}
+#landing-gauge {
+	height: 150px;
+	padding: 10px;
+	align-content: center;
+}
+#landing-gaugeMonths {
+	height: 50px;
+	width: 95%;
+	padding: 20px;
+	align-content: center;
+}
+
+
+.grid-2{
+	width: 38.5%;
+}
+.green{
+ opacity: .8;
+	background-color: #526b2b;
+}
+.grid-3{
+	width: 57.5%;
+}
+.grid-4{
+	width: 76%;
+}
+.grid-1.row-2{
+	width: 19%;
+	height: calc(90vh/2);
+}
+.wide-thin{
+	padding: 10px;
+	width: 96%;
+	height: calc(90vh/4);
+}
+.happyWorkers{
+	background-color: #e4e4e4;
+	background-image: url("../Images/happyWorkers.png");
+	background-repeat: no-repeat;
+	opacity: .8;
+	}
+.happyKids{
+	background-color: #e4e4e4;
+	background-image: url("../Images/happyKids.png");
+	background-repeat: no-repeat;
+	height: calc(90vh/2);
+}
+
+.messaging {
+  padding: 20px;
+  font-family:'Open Sans', "sans-serif";
+  font-size:13px;
+  color:#666;
+  font-weight:300;
+  line-height:16px;
+  text-align:left;
+}
+.messaging .icon {
+	font-size: 20px;
+	text-align: center;
+}
+.messaging ol ul {
+	margin: 10px;
+	font-size: 12px;
+}
+.messaging.date {
+	font-size: 30px;
+}
+.messaging.header {
+ padding: 0px 0 5px 0;
+  font-size:18px;
+  color:#808080;
+  font-weight:500;
+  line-height:22px;
+	border-bottom-width: 1px;
+	border-bottom-color: #fff;
+}
+.hline-bottom {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
